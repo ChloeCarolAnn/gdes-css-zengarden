@@ -1,0 +1,90 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+.summary a  {
+    text-decoration: none;
+    background-color: lightpink;
+    border: 2px solid lightseagreen;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+footer a  {
+    text-decoration: none;
+    background-color: lightpink;
+    border: 2px solid lightseagreen;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    text-align: center;
+} 
+
+.summary, .preamble {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.summary {
+    width: 50%;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+
+.preamble {
+    width: 50%;
+}
+
+.intro header {
+    background-color: lightseagreen;
+    width: 100%;
+    padding: 20px;
+}
+
+.main-supporting {
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-image: url(/images/background.jpg);
+}
+
+
+footer {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: lightseagreen;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+aside .wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.design-selection, .design-archives, .zen-resources {
+    width: 33%;
+}
